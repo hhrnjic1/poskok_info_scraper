@@ -1,0 +1,15 @@
+{
+    "start_year": 2024,
+    "end_year": 2024,
+    "max_pages_per_category": 5,
+    "batch_size": 10,
+    "checkpoint_interval": 5,
+    "max_retries": 3,
+    "retry_delay": 2,
+    "timeout": 15,
+    "scrape_archive": true,
+    "force_refresh_links": false,
+    "output_folder": "PoskokOutput",
+    "max_workers": 2,
+    "batch_link_size": 50
+  }
