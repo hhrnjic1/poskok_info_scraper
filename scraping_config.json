@@ -1,0 +1,15 @@
+{
+    "start_year": 2012,
+    "end_year": 2025,
+    "max_pages_per_category": 300,
+    "batch_size": 100,
+    "checkpoint_interval": 20,
+    "max_retries": 5,
+    "retry_delay": 5,
+    "timeout": 45,
+    "scrape_archive": true,
+    "force_refresh_links": false,
+    "output_folder": "PoskokData",
+    "max_workers": null,
+    "batch_link_size": 1000
+}

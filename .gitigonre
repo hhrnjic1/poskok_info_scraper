@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+poskok_env/
+ENV/
+
+# Virtual environment
+.venv/
+.env
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+scraper_detailed.log
+poskok_scraper.log
+poskok_quick_test.log
+poskok_basic_test.log
+
+# Output directories
+PoskokData/
+PoskokFullArchive/
+PoskokQuickTest/
+PoskokBasicTest/
+link_batches/
+backup_*/
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+progress.json
+
+# Configuration files (keep only templates)
+full_config.json
+quick_test_config.json
+!example_config.json
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Test output
+test_output/
+temp/
