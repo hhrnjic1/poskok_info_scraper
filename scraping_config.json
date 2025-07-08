@@ -1,7 +1,7 @@
 {
-    "start_year": 2012,
+    "start_year": 2000,
     "end_year": 2025,
-    "max_pages_per_category": 300,
+    "max_pages_per_category": 2000,
     "batch_size": 100,
     "checkpoint_interval": 20,
     "max_retries": 5,

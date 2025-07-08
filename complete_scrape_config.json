@@ -1,0 +1,59 @@
+{
+    "scraper_config": {
+      "start_year": 2012,
+      "end_year": 2025,
+      "max_pages_per_category": 1000,
+      "batch_size": 500,
+      "checkpoint_interval": 50,
+      "max_retries": 7,
+      "retry_delay": 2,
+      "timeout": 45,
+      "scrape_archive": true,
+      "force_refresh_links": true,
+      "output_folder": "PoskokCompleteArchive",
+      "max_workers": 8,
+      "batch_link_size": 1000,
+      "max_crawl_depth": 15,
+      "crawl_delay_min": 0.5,
+      "crawl_delay_max": 2.0
+    },
+    "enhanced_settings": {
+      "scrape_comments": true,
+      "scrape_related_articles": true,
+      "scrape_author_pages": true,
+      "scrape_tag_pages": true,
+      "scrape_search_results": true,
+      "follow_external_links": false,
+      "download_images": false,
+      "preserve_formatting": true,
+      "extract_metadata": true
+    },
+    "content_detection": {
+      "min_content_length": 50,
+      "max_content_length": 50000,
+      "detect_pagination": true,
+      "follow_continue_reading": true,
+      "extract_comments": false
+    },
+    "filter_settings": {
+      "disable_foreign_filter": false,
+      "foreign_threshold": 0.15,
+      "accept_mixed_content": true,
+      "preserve_all_content": true
+    },
+    "performance": {
+      "concurrent_requests": 10,
+      "request_timeout": 45,
+      "max_retries": 7,
+      "backoff_factor": 1.5,
+      "respect_robots_txt": true,
+      "user_agent_rotation": true
+    },
+    "output": {
+      "save_raw_html": true,
+      "save_metadata": true,
+      "create_error_log": true,
+      "detailed_statistics": true,
+      "checkpoint_frequency": 100
+    }
+}
